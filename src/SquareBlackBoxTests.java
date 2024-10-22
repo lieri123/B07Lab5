@@ -79,5 +79,20 @@ class SquareBlackBoxTests {
 		Square sq1 = new Square(A, 1);
 		Square sq2 = new Square();
 		assertEquals(sq1.hashCode, sq2.hashCode);
+		Point B = new Point(3, 7);
+		Square sq3 = new Square(B, 10);
+		Square sq4 = new Square(B, 10);
+		assertEquals(sq3.hashCode, sq4.hashCode);
+	}
+	
+	@Test
+	void testToString() {
+		Point A = new Point(2, 3);
+		Square sq1 = new Square();
+		Square sq2 = new Square(A, 3.7);
+		String exp1 = "Square: (0,0), 1";
+		String exp2 = "Square: (2,3), 3.7";
+		assertEquals(sq1.toString(), exp1);
+		assertEquals(sq2.toString(), exp2);
 	}
 }
