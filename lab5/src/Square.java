@@ -1,3 +1,4 @@
+
 public class Square {
     Point A; //bottom left point
     double length;
@@ -16,10 +17,6 @@ public class Square {
     }
 
     @Override
-    /**
-     * @param x the other rational number to be checked
-     * @return true if they are equal, false otherwise
-     */
     public boolean equals(Object sx) {
         if (!(sx instanceof Square)) {
             return false;
@@ -29,10 +26,6 @@ public class Square {
     }
 
     @Override
-    /**
-     * This method creates a hashcode
-     * @return the new hashcode
-     */
     public int hashCode() {
         return Double.hashCode(length) ^ Double.hashCode(A.x) ^ Double.hashCode(A.y);
     }
