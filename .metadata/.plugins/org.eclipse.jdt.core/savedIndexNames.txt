@@ -11,7 +11,6 @@ INDEX VERSION 1.134+/Users/kaito_watanabe/Desktop/B07Lab5/.metadata/.plugins/org
 3123414619.index
 2733457758.index
 901696210.index
-3157158754.index
 3446509488.index
 3598203663.index
 1865797976.index
