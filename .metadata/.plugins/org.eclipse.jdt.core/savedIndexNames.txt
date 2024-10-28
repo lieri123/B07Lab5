@@ -1,0 +1,19 @@
+INDEX VERSION 1.134+/Users/kaito_watanabe/Desktop/B07Lab5/.metadata/.plugins/org.eclipse.jdt.core
+2730867284.index
+329505328.index
+2192408030.index
+3573483035.index
+4160653125.index
+2048143717.index
+637545950.index
+251317051.index
+1090367905.index
+3123414619.index
+2733457758.index
+901696210.index
+3446509488.index
+3598203663.index
+1865797976.index
+1416486570.index
+3529915949.index
+3543593073.index

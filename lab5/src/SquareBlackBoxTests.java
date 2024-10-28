@@ -67,7 +67,7 @@ class SquareBlackBoxTests {
 	
 	@Test
 	void testEqualsDiffBoth() {
-		Point A = new point(1, 0);
+		Point A = new Point(1, 0);
 		Square sq1 = new Square();
 		Square sq2 = new Square(A, 5);
 		assertFalse(sq1.equals(sq2));
