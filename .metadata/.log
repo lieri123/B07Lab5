@@ -105,3 +105,8 @@ java.lang.Exception: File not found: /Users/kaito_watanabe/Desktop/B07Lab5/lab5/
 	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)
 	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.resources 2 2 2024-10-27 22:15:23.043
+!MESSAGE Save operation warnings.
+!SUBENTRY 1 org.eclipse.core.resources 2 234 2024-10-27 22:15:23.045
+!MESSAGE The project description file (.project) for 'lab5' was missing.  This file contains important information about the project.  A new project description file has been created, but some information about the project may have been lost.
