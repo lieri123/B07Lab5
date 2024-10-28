@@ -1,4 +1,3 @@
-
 public class Square {
     Point A; //bottom left point
     double length;
